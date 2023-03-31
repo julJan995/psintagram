@@ -1,0 +1,16 @@
+img {
+  max-height: 400px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.image-and-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.description {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+}

@@ -1,0 +1,12 @@
+<div class="image-and-description">
+  <div class="image-background">
+    <img  *ngIf="image"
+          src="{{image}}"
+          alt="dog image"/>
+  </div>
+  <p *ngIf="image" class="description">Read more about this dog on Wikipedia:
+    <a href="https://en.wikipedia.org/wiki/{{ breed }}">
+      {{ breed | titlecase }}
+    </a>
+  </p>
+</div>

@@ -1,0 +1,16 @@
+@import url(//db.onlinewebfonts.com/c/6d32b8e06f40fb7698cfb714b9e7975d?family=BillabongW00-Regular);
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: "BillabongW00-Regular";
+  font-size: 50px;
+  padding-right: 250px;
+}
+#title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: -100px;
+}

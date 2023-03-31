@@ -1,0 +1,19 @@
+<div class="container">
+<mat-form-field id="mat-form" appearance="fill">
+  <mat-label class="mat-label">-- Dog Breed Selector --</mat-label>
+  <mat-select
+    [(ngModel)]="selectedDog"
+    (selectionChange)="loadImage()">
+    <mat-option
+      *ngFor="let dog of dogsList"
+      [value]="dog">
+      {{ dog | titlecase }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<app-dog-info
+  [image]="imageLink"
+  [breed]="selectedDog">
+</app-dog-info>
+</div>
